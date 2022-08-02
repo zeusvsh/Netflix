@@ -7,30 +7,77 @@
     <title>Netiflix</title>
 </head>
 <body>
-    <a href="http://">Definição</a>
-    |
-    <a href="">Características</a>
-    |
-    <a href="">Arquitetura</a>
-    |
-    <a href="">Exemplo de Interface</a>
-    <hr>
-    <p>Seguem os tópicos:</p>
-
-    <h1>Definição</h1>
-    <figure>
-       <img src="Netflix_logo.svg.png" alt="Logo da netiflix" height="20%" width="30%">
-       <figcaption>Figura 1 - Logo netiflix</figcaption>
-    </figure>
-    <p> <strong>Netflix </strong>é uma provedora global de filmes e séries de televisão via streaming sediada em Los Gatos, Califórnia, e que atualmente possui mais de 220 milhões de assinantes.</p>
-    <a href="">Voltar</a>
-    <hr>
-    <h1>Características</h1>
-    <p>Hoje em dia, a empresa produz centenas de horas de programação original em diferentes países do mundo, querendo aprimorar-se nas aplicações e em novas programações. Os planos foram apresentados no Mobile World Congress em Barcelona, Espanha. Em setembro de 2016 a empresa anunciou que planeja ter 50% do catálogo composto de produções originais.</p>
-    <video controls poster="poster.jpg" width="50%" height="50%">
-    <source  src="O mundo está na Netflix.mp4" type="video/mp4">
-    <source src="O mundo está na Netflix (video-converter.com).webm" type="video/webm">
-    </video>
+    <section id="ini">
+        <a href="#def">Definição</a>
+        |
+         <a href="#car">Características</a>
+        |
+         <a href="#arc">Arquitetura</a>
+        |
+         <a href="#exp">Exemplo de Interface</a>
+        |
+        <a href="#vid">Video explicativo</a>
+        |
+        <a href="#ref">Referencias</a>
+    </section>
+        <hr>
+        <p>Seguem os tópicos:</p>
     
+    <section id="def">
+        <h3>Definição</h3>
+        <figure>
+            <img src="Netflix_logo.svg.png" alt="Logo da netiflix" height="30%" width="30%">
+             <figcaption>Figura 1 - Logo netiflix</figcaption>
+        </figure>
+        <p> <strong>Netflix </strong>é uma provedora global de filmes e séries de televisão via streaming sediada em Los Gatos, Califórnia, e que atualmente possui mais de 220 milhões de assinantes.</p>
+        <a href="#ini">Voltar</a>
+    </section>
+    <hr>
+    
+    <section id="car">
+        <h3>Características</h3>
+        <p>Durante a Consumer Electronics Show (CES) 2014, em Las Vegas, foi anunciado que o conteúdo 4K, a chamada ultra-alta definição (UHD), faria a sua estreia na Netflix na segunda temporada da websérie House of Cards, lançada em fevereiro do mesmo ano. Todos os episódios foram filmados no formato digital com câmeras especiais, e a alta qualidade permite ver as cenas com maiores detalhes. A tecnologia tem resolução quatro vezes maior do que as televisões de alta definição. A Netflix também trabalha com resoluções menores em seus planos mais básicos, como: 480p, 720p e 1080p.</p>
+        <br>
+        <a href="#ini">Voltar</a>
+    </section>
+    <hr>
+
+    <section id="arc">
+        <h3>Arquitetura</h3>
+        <p>A Netflix possui uma relação de parceria com a Amazon pelo facto de utilizar os seus serviços web para correr o seu site e o seu motor de recomendações, realizando também o upload de conteúdos na Amazon Cloud, apesar de realizar a codificação pretendida antes de distribuir os conteúdos para poderem chegar e ser visualizados pelos clientes. A empresa possui todos os seus conteúdos armazenados na sua própria rede (content delivery network, CDN), esta consiste numa rede global de servidores que guarda numa cache os conteúdos, cache esta que reduz a largura de banda necessária para a visualização dos mesmos, pelo que consequentemente acaba por baixar o custo do serviço, aumentando a escalabilidade do mesmo em grandes áreas podendo alcançar assim mais utilizadores. A Netflix é constituída por dois tipos de servidores com software open-source, ambos especializados no streaming de vídeo, um baseado em drives de disco rígido, os mais utilizados atualmente e outro em flash drives, ambos existem tanto para suportar grandes ou pequenos fluxos de utilizadores como para garantir redundância na rede.</p>
+        <a href="#ini">Voltar</a>
+
+    </section>
+    <hr>
+
+    <section id="exp">
+        <h3>Exemplo de Interface</h3>
+        <figure>
+            <img src="interface.png" alt="Exemplo de interfaxe" height="50%" width="40%">
+            <figcaption>Figura 2 - Interface da Netflix</figcaption>
+        </figure>
+        <a href="#ini">Voltar</a>
+    </section>
+    <hr>
+
+    <section id="vid">
+        <h3>Video explicativo</h3>
+        <video src="Dramas de Umbrella - The Umbrella Academy - Netflix Brasil.mp4" poster="poster.jpg" width="50%" height="50%" controls>
+            <track default kind="subtitles" label="Português" srclang="pt-br" src="legenda.vtt" />
+        </video>
+            
+            <br>
+            <a href="#ini">Voltar</a>
+    </section>
+    <hr>
+
+    <section id="ref">
+        <h3>Referencias</h3>
+        <ol>
+            <li><a href="https://pt.wikipedia.org/wiki/Netflix">Netflix na wikipedia.org</a></li>
+            <li><a href="http://web.ist.utl.pt/ist182075/netflix/tecnologia.html">Arquitetura e funcionamento da Netflix</a></li>
+        </ol>
+        <a href="#ini">Voltar</a>
+    </section>
 </body>
 </html>
